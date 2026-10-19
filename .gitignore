@@ -1,0 +1,30 @@
+# --- Build output (rebuild with ./build.sh; attach jars to releases instead) ---
+build/
+dist/
+*.jar
+*.class
+
+# --- Gradle / ForgeGradle (in case the project moves to Gradle later) ---
+.gradle/
+run/
+out/
+logs/
+
+# --- IDEs ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+bin/
+
+# --- OS junk ---
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini

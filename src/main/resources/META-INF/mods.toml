@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="clearvoid"
+version="1.1.0"
+displayName="Clear Void"
+authors="theocraftusblockbastus"
+description='''
+Removes the black lower half of the sky and the dark fog when you are below y=63
+on sky islands. The darkness only starts far below the world, near y=-64.
+Also fixes Astral Sorcery's "constellations only" sky setting (skyRenderingConstellations),
+so it can draw constellations over another sky such as Botania's Garden of Glass skybox.
+Client-side only; safe to leave out on servers.
+'''
+
+[[dependencies.clearvoid]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.clearvoid]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
